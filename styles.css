@@ -2,13 +2,13 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9;
-  color: #333;
+  background-color: #333; /* Dark grey background */
+  color: #fff; /* White text */
   overflow-x: hidden;
 }
 
 .header {
-  background: linear-gradient(to right, #3a7bd5, #3a6073);
+  background: #444; /* Slightly lighter dark grey for the header */
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -24,18 +24,22 @@ body {
 }
 
 .nav ul li {
-  margin: 0 15px;
+  margin: 0 30px; /* More spacing between items */
 }
 
 .nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  transition: color 0.3s ease;
+  font-size: 20px; /* Larger font size */
+  padding: 10px 20px; /* More padding for segmentation */
+  border: 2px solid transparent; /* Initial border for segmentation effect */
+  transition: color 0.3s ease, border-color 0.3s ease;
 }
 
 .nav ul li a:hover {
   color: #ddd;
+  border-color: white; /* Show border on hover */
 }
 
 .hero {
@@ -46,36 +50,41 @@ body {
   position: relative;
   z-index: 1;
   color: white;
-  animation: backgroundAnim 20s infinite alternate;
-}
-
-.hero-content {
-  max-width: 800px;
-  margin: 0 auto;
   text-align: center;
 }
 
 .hero h1 {
-  margin: 0;
   font-size: 3em;
+  margin: 0;
 }
 
 .hero p {
-  margin: 10px 0 0;
   font-size: 1.2em;
+  margin: 10px 0;
 }
 
-@keyframes backgroundAnim {
-  0% { background-position: 0 0; }
-  100% { background-position: 100% 100%; }
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #3a7bd5;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2a5fa2;
 }
 
 .main-content {
   max-width: 1000px;
   margin: 50px auto;
   padding: 20px;
-  background: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #444; /* Dark grey background for content */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Darker shadow */
   border-radius: 8px;
 }
 
@@ -83,8 +92,8 @@ body {
   margin: 20px 0;
   padding: 20px;
   border-radius: 8px;
-  background: #f4f4f9;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #555; /* Slightly lighter dark grey for sections */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Darker shadow */
 }
 
 .main-content h2 {
@@ -107,24 +116,8 @@ body {
 .footer {
   text-align: center;
   padding: 20px 0;
-  background: #333;
+  background: #444; /* Dark grey background for footer */
   color: white;
-}
-
-.about, .projects, .connect {
-  margin-bottom: 50px;
-}
-
-.about {
-  background: #e0f7fa;
-}
-
-.projects {
-  background: #e3f2fd;
-}
-
-.connect {
-  background: #f3e5f5;
 }
 
 .profile-picture {
@@ -135,57 +128,39 @@ body {
   margin-bottom: 20px;
 }
 
-.skills-list {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.skill-item {
-  text-align: center;
-  width: 30%;
-  margin-bottom: 20px;
-}
-
-.skill-item img {
-  width: 100px;
-  height: 100px;
-  margin-bottom: 10px;
-}
-
-.projects-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-.project-item {
-  width: 45%;
+.projects .project-item {
   margin-bottom: 20px;
   text-align: center;
 }
 
-.project-item img {
+.projects .project-item img {
   width: 100%;
   height: auto;
   border-radius: 8px;
   margin-bottom: 10px;
 }
 
-.project-item h2 {
+.projects .project-item h3 {
   color: #3a7bd5;
 }
 
-.project-item .button {
-  color: white;
-  background-color: #3a7bd5;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+@keyframes backgroundAnim {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
 }
 
-.project-item .button:hover {
-  background-color: #2a5fa2;
+.about, .projects, .connect {
+  margin-bottom: 50px;
+}
+
+.about {
+  background: #555; /* Slightly lighter dark grey for sections */
+}
+
+.projects {
+  background: #555; /* Slightly lighter dark grey for sections */
+}
+
+.connect {
+  background: #555; /* Slightly lighter dark grey for sections */
 }
