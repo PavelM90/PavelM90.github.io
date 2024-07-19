@@ -33,6 +33,14 @@ seo:
 # Permalinks
 permalink: /:categories/:year/:month/:day/:title/
 
+# Navigation links
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Projects"
+    url: "/projects/"
 # Pagination settings
 paginate: 5
 paginate_path: "/page:num/"
