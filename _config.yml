@@ -66,8 +66,8 @@ exclude:
 # Include for processing
 include:
   - _pages
-  - about.html
-  - projects.html
+  - about.md
+  - projects.md
 
 # Defaults
 defaults:
