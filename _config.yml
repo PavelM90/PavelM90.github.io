@@ -3,3 +3,80 @@ logo: /assets/unnamed.jpeg
 description: My story and my projects
 show_download: true
 theme: jekyll-theme-minimal
+
+
+
+# Site settings
+title: Your Site Title
+email: your-email@example.com
+description: > # this means to ignore newlines until "baseurl:"
+  A short description of your site. This will be displayed in search engine results.
+baseurl: "" # the subpath of your site, e.g. /blog, or leave empty for the root
+url: "https://your-username.github.io" # the base hostname & protocol for your site
+twitter_username: your-twitter-username
+github_username:  your-github-username
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# SEO settings
+seo:
+  name: "Your Name or Site Name"
+  description: "Description of your site for SEO purposes"
+  url: "https://your-username.github.io"
+  twitter: your-twitter-username
+
+# Permalinks
+permalink: /:categories/:year/:month/:day/:title/
+
+# Pagination settings
+paginate: 5
+paginate_path: "/page:num/"
+
+# Author settings
+author:
+  name: Your Name
+  email: your-email@example.com
+
+# Social media settings
+social:
+  twitter: your-twitter-username
+  github: your-github-username
+  linkedin: your-linkedin-username
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+
+# Include for processing
+include:
+  - _pages
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Your Name"
+
+# Markdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    block: {
+      line_numbers: true
+    }
+
+# Deployment settings
+repository: PavelM90.github.io
+theme: jekyll-theme-minimal
