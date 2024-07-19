@@ -12,8 +12,7 @@ email: mack7151@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A short description of your site. This will be displayed in search engine results.
 baseurl: "" # the subpath of your site, e.g. /blog, or leave empty for the root
-url: "https://your-username.github.io" # the base hostname & protocol for your site
-twitter_username: your-twitter-username
+url: "PavelM90.github.io" # the base hostname & protocol for your site
 github_username:  PavelM90
 
 # Build settings
@@ -25,10 +24,10 @@ plugins:
 
 # SEO settings
 seo:
-  name: "Your Name or Site Name"
-  description: "Description of your site for SEO purposes"
-  url: "https://your-username.github.io"
-  twitter: your-twitter-username
+  name: "Pavel Makarov"
+  description: "Portfolio for Pavel Makarov"
+  url: "pavelmakarov.com"
+  
 
 # Permalinks
 permalink: /:categories/:year/:month/:day/:title/
@@ -39,14 +38,14 @@ paginate_path: "/page:num/"
 
 # Author settings
 author:
-  name: Your Name
-  email: your-email@example.com
+  name: Pavel Makarov
+  email: mack7151@gmail.com
 
 # Social media settings
 social:
-  twitter: your-twitter-username
-  github: your-github-username
-  linkedin: your-linkedin-username
+  
+  github: PavelM90
+  linkedin: https://www.linkedin.com/in/pavelmakarov90/
 
 # Exclude from processing
 exclude:
