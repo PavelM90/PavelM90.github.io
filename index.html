@@ -3,29 +3,52 @@ layout: home
 title: Welcome to Pavel Makarov's Portfolio
 ---
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+    </div>
+  </header>
 
-<div class="home">
-  <h1>Welcome to {{ site.title }}</h1>
-  <p>{{ site.description }}</p>
+  <main class="main-content">
+    <section>
+      <h2>About Me</h2>
+      <p>Welcome to my portfolio site! Here you'll find information about my projects and background.</p>
+      <a href="/about/">Learn more about me</a>
+    </section>
 
-  <div class="content">
-    <h2>About Me</h2>
-    <p>Welcome to my portfolio site! Here you'll find information about my projects and background.</p>
-    <a href="/about/">Learn more about me</a>
-  </div>
+    <section>
+      <h2>Projects</h2>
+      <p>Check out the work I’ve been doing lately.</p>
+      <a href="/projects/">View my projects</a>
+    </section>
 
-  <div class="content">
-    <h2>Projects</h2>
-    <p>Check out the work I’ve been doing lately.</p>
-    <a href="/projects/">View my projects</a> <!-- Link to projects page -->
-  </div>
+    <section>
+      <h2>Connect</h2>
+      <p>Get in touch with me through social media or other channels.</p>
+      <a href="/contact/">Contact Me</a>
+    </section>
+  </main>
 
-  <div class="content">
-    <h2>Connect</h2>
-    <p>Get in touch with me through social media or other channels.</p>
-    <a href="/contact/">Contact Me</a> <!-- Link to contact page, assuming you have one -->
-  </div>
-</div>
+  <footer class="footer">
+    <p>&copy; 2024 Pavel Makarov. All rights reserved.</p>
+  </footer>
+</body>
+</html>
