@@ -7,6 +7,7 @@ permalink: /about/
 
 ## About Me
 ![My Picture](/assets/me_500.png)
+
 Hi, I'm Pavel Makarov, a data scientist and biochemist with a passion for solving complex problems...
 
 ![Profile Picture](/assets/profile-picture.jpg)
