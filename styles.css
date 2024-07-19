@@ -38,46 +38,72 @@ body {
 }
 
 .hero {
-  padding: 50px 20px;
-  background-image: url('path/to/your/background-image.jpg');
+  padding: 100px 20px;
+  background: linear-gradient(to right bottom, rgba(76, 175, 80, 0.7), rgba(46, 125, 50, 0.7)), url('/assets/background.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
   z-index: 1;
+  color: white;
 }
 
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: -1;
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .hero h1 {
   margin: 0;
-  font-size: 2.5em;
+  font-size: 3em;
+  animation: fadeInDown 1s ease-out;
 }
 
 .hero p {
   margin: 10px 0 0;
   font-size: 1.2em;
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .main-content {
-  max-width: 800px;
-  margin: 30px auto;
+  max-width: 1000px;
+  margin: 50px auto;
   padding: 20px;
   background: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  animation: fadeIn 1s ease-out;
 }
 
 .main-content section {
   margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f4f4f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: slideIn 1s ease-out;
 }
 
 .main-content h2 {
@@ -102,4 +128,40 @@ body {
   padding: 20px 0;
   background: #333;
   color: white;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about, .projects, .connect {
+  margin-bottom: 50px;
+}
+
+.about {
+  background: #e8f5e9;
+}
+
+.projects {
+  background: #e3f2fd;
+}
+
+.connect {
+  background: #fff3e0;
 }
