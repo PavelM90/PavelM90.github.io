@@ -111,15 +111,20 @@ body {
   color: white;
 }
 
-.projects-page .projects-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 20px;
+.about, .projects, .connect {
+  margin-bottom: 50px;
 }
-.about-page .profile {
-  text-align: center;
-  padding: 20px;
+
+.about {
+  background: #e0f7fa;
+}
+
+.projects {
+  background: #e3f2fd;
+}
+
+.connect {
+  background: #f3e5f5;
 }
 
 .profile-picture {
@@ -146,6 +151,13 @@ body {
   width: 100px;
   height: 100px;
   margin-bottom: 10px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
 }
 
 .project-item {
@@ -176,20 +188,4 @@ body {
 
 .project-item .button:hover {
   background-color: #2a5fa2;
-}
-
-.about, .projects, .connect {
-  margin-bottom: 50px;
-}
-
-.about {
-  background: #e0f7fa;
-}
-
-.projects {
-  background: #e3f2fd;
-}
-
-.connect {
-  background: #f3e5f5;
 }
