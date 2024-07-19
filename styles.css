@@ -111,6 +111,73 @@ body {
   color: white;
 }
 
+.projects-page .projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+.about-page .profile {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skill-item {
+  text-align: center;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.skill-item img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.project-item {
+  width: 45%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.project-item h2 {
+  color: #3a7bd5;
+}
+
+.project-item .button {
+  color: white;
+  background-color: #3a7bd5;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.project-item .button:hover {
+  background-color: #2a5fa2;
+}
+
 .about, .projects, .connect {
   margin-bottom: 50px;
 }
