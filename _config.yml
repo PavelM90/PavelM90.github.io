@@ -7,14 +7,14 @@
 
 
 # Site settings
-title: Your Site Title
-email: your-email@example.com
+title: Pavel Makarov
+email: mack7151@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A short description of your site. This will be displayed in search engine results.
 baseurl: "" # the subpath of your site, e.g. /blog, or leave empty for the root
 url: "https://your-username.github.io" # the base hostname & protocol for your site
 twitter_username: your-twitter-username
-github_username:  your-github-username
+github_username:  PavelM90
 
 # Build settings
 markdown: kramdown
