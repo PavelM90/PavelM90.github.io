@@ -59,6 +59,7 @@ social:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
   - node_modules
   - vendor
 
