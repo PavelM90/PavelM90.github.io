@@ -1,63 +1,41 @@
----
-layout: home
-title: Welcome to Pavel Makarov's Portfolio
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavel Makarov | Portfolio</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <header class="header">
-    <nav class="nav">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about/">About</a></li>
-        <li><a href="/projects/">Projects</a></li>
-        <li><a href="/contact/">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="hero" data-aos="fade-in">
-      <div class="hero-content">
-        <h1>{{ site.title }}</h1>
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-  </header>
-
-  <main class="main-content">
-    <section class="about" data-aos="fade-up">
-      <h2>About Me</h2>
-      <p>Welcome to my portfolio site! Here you'll find information about my projects and background.</p>
-      <a href="/about/" class="button">Learn more about me</a>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">Pavel Makarov</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Pavel Makarov</h1>
+            <p>Data Scientist and Biochemist</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
     </section>
-
-    <section class="projects" data-aos="fade-up">
-      <h2>Projects</h2>
-      <p>Check out the work I’ve been doing lately.</p>
-      <a href="/projects/" class="button">View my projects</a>
-    </section>
-
-    <section class="connect" data-aos="fade-up">
-      <h2>Connect</h2>
-      <p>Get in touch with me through social media or other channels.</p>
-      <a href="/contact/" class="button">Contact Me</a>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <p>&copy; 2024 Pavel Makarov. All rights reserved.</p>
-  </footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <!-- More sections here -->
+    <footer>
+        <p>&copy; 2024 Pavel Makarov. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
