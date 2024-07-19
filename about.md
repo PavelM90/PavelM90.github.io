@@ -6,7 +6,7 @@ permalink: /about/
 
 # About Me
 
-![My Picture](/assets/unnmaed(1).jpg)
+![My Picture](/assets/me.png)
 
 Welcome to my personal website! My name is Pavel Makarov. I am passionate about data science, machine learning, and biochemistry. Here is some information about my background and experience:
 
