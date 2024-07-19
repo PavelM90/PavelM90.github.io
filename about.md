@@ -4,25 +4,23 @@ title: About
 permalink: /about/
 ---
 
-# About Me
 
+## About Me
 ![My Picture](/assets/me_500.png)
+Hi, I'm Pavel Makarov, a data scientist and biochemist with a passion for solving complex problems...
 
-Welcome to my personal website! My name is Pavel Makarov. I am passionate about data science, machine learning, and biochemistry. Here is some information about my background and experience:
+![Profile Picture](/assets/profile-picture.jpg)
+
+## Skills
+
+### Data Science
+![Data Science Icon](/assets/data-science-icon.png)
+Expert in data analysis, machine learning, and statistical modeling.
+
+### Biochemistry
+![Biochemistry Icon](/assets/biochemistry-icon.png)
+Deep understanding of molecular biology and biochemical techniques.
 
 ## Experience
 
-- **Job Title 1** at **Company 1**
-  - Description of your role and responsibilities.
-  - Achievements and key projects.
-
-- **Job Title 2** at **Company 2**
-  - Description of your role and responsibilities.
-  - Achievements and key projects.
-
-## Education
-
-- **Degree** in **Field of Study** from **University**
-  - Description or notable achievements.
-
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/pavelmakarov90/) or check out my [GitHub](https://github.com/PavelM90).
+Detailed information about your professional experience...
