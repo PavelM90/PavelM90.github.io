@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-  background: linear-gradient(to right, #4CAF50, #2E7D32);
+  background: linear-gradient(to right, #3a7bd5, #3a6073);
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -35,12 +35,12 @@ body {
 }
 
 .nav ul li a:hover {
-  color: #e0e0e0;
+  color: #ddd;
 }
 
 .hero {
   padding: 100px 20px;
-  background: linear-gradient(to right bottom, rgba(76, 175, 80, 0.7), rgba(46, 125, 50, 0.7)), url('/assets/background.png');
+  background: linear-gradient(to right bottom, rgba(58, 123, 213, 0.7), rgba(58, 96, 115, 0.7)), url('/assets/background.png');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -88,12 +88,12 @@ body {
 }
 
 .main-content h2 {
-  color: #4CAF50;
+  color: #3a7bd5;
 }
 
 .main-content a.button {
   color: white;
-  background-color: #4CAF50;
+  background-color: #3a7bd5;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 4px;
@@ -101,7 +101,7 @@ body {
 }
 
 .main-content a.button:hover {
-  background-color: #45a049;
+  background-color: #2a5fa2;
 }
 
 .footer {
@@ -116,7 +116,7 @@ body {
 }
 
 .about {
-  background: #e8f5e9;
+  background: #e0f7fa;
 }
 
 .projects {
@@ -124,5 +124,5 @@ body {
 }
 
 .connect {
-  background: #fff3e0;
+  background: #f3e5f5;
 }
