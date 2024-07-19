@@ -1,55 +1,88 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
-  color: #333;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
 }
 
-.home {
+.header {
+  background: #4CAF50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul li {
+  margin: 0 15px;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.hero p {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+}
+
+.main-content {
   max-width: 800px;
-  margin: 50px auto;
+  margin: 30px auto;
   padding: 20px;
-  background: #fff;
+  background: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
 
-h1 {
-  font-size: 2.5em;
-  color: #4CAF50;
-  text-align: center;
-}
-
-h2 {
-  color: #4CAF50;
-}
-
-a {
-  color: #4CAF50;
-  text-decoration: none;
-  border-bottom: 1px solid #4CAF50;
-}
-
-a:hover {
-  color: #333;
-  border-bottom: 1px solid #333;
-}
-
-.content {
+.main-content section {
   margin: 20px 0;
 }
 
-.content p {
-  line-height: 1.6;
+.main-content h2 {
+  color: #4CAF50;
 }
 
-.content a {
+.main-content a {
+  color: #4CAF50;
+  text-decoration: none;
+  border-bottom: 1px solid #4CAF50;
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
   background-color: #4CAF50;
-  color: #fff;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.main-content a:hover {
+  background-color: #45a049;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #333;
+  color: white;
   border-radius: 4px;
   transition: background-color 0.3s ease;
 }
