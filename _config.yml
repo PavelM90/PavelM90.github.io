@@ -14,6 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog, or leave empty for the root
 url: "https://pavelmakarov.com" # the base hostname & protocol for your site
 github_username:  PavelM90
+profile_picture: "/assets/circle head.jpeg"
 
 # Build settings
 markdown: kramdown
