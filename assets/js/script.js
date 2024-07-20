@@ -45,6 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const markdown = await fetchMarkdown(file);
         console.log('Markdown content:', markdown);
         content.innerHTML = markdown;
+
+        // Toggle background visibility based on hash
+        toggleBackgroundVisibility(hash);
     }
 
     function ensureMarkedLoaded(callback) {
@@ -52,6 +55,15 @@ document.addEventListener('DOMContentLoaded', () => {
             setTimeout(() => ensureMarkedLoaded(callback), 100);
         } else {
             callback();
+        }
+    }
+
+    function toggleBackgroundVisibility(hash) {
+        const background = document.querySelector('canvas');
+        if (hash === '#' || hash === '#home') {
+            background.style.display = 'block';
+        } else {
+            background.style.display = 'none';
         }
     }
 
@@ -63,3 +75,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Load initial content
     ensureMarkedLoaded(loadContent);
 });
+
