@@ -1,27 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const burger = document.querySelector('.burger');
-    const navLinks = document.querySelector('.nav-links');
+    const content = document.getElementById('content');
 
-    burger.addEventListener('click', () => {
-        navLinks.classList.toggle('nav-active');
-        burger.classList.toggle('toggle');
-    });
+    async function fetchMarkdown(file) {
+        const response = await fetch(file);
+        const text = await response.text();
+        return marked(text);
+    }
 
-    const navLinksItems = document.querySelectorAll('.nav-links li a');
-    navLinksItems.forEach(link => {
-        link.addEventListener('click', () => {
-            navLinks.classList.remove('nav-active');
-            burger.classList.remove('toggle');
-        });
-    });
+    async function loadContent() {
+        let hash = window.location.hash || '#about';
+        let file = `${hash.substring(1)}.md`;
 
-    // Smooth scroll
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
+        const markdown = await fetchMarkdown(`assets/md/${file}`);
+        content.innerHTML = markdown;
+    }
+
+    window.addEventListener('hashchange', loadContent);
+
+    loadContent();
 });
