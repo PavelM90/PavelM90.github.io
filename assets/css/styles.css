@@ -102,7 +102,7 @@ ul {
 }
 
 /* Main Content */
-main {
+main#content {
     padding-top: 150px; /* Increased padding to add more space */
     margin: 0 auto;
     max-width: 1200px;
