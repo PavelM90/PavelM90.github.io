@@ -29,7 +29,10 @@ document.addEventListener('DOMContentLoaded', () => {
         content.innerHTML = markdown;
     }
 
-    window.addEventListener('hashchange', loadContent);
+    window.addEventListener('hashchange', () => {
+        console.log('Hash changed:', window.location.hash);
+        loadContent();
+    });
 
     // Load initial content
     loadContent();
