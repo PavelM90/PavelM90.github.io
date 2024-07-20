@@ -108,6 +108,7 @@ body main#content {
     max-width: 1200px;
     padding: 20px;
     flex: 1; /* Ensure the main content takes available space */
+    z-index: 1; /* Ensure main content is above the background */
 }
 
 /* Footer Styles */
@@ -122,13 +123,13 @@ footer {
     z-index: 1000;
 }
 
-/* Hero Section */
-.hero {
+/* Hero Section for Home Page */
+body.home .hero {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: linear-gradient(to right bottom, rgba(58, 123, 213, 0.7), rgba(58, 96, 115, 0.7)), url('../images/hero-background.jpg') no-repeat center center/cover;
+    background: linear-gradient(to right bottom, rgba(58, 123, 213, 0.7), rgba(58, 96, 115, 0.7)), url('path-to-your-background-image.jpg') no-repeat center center/cover;
 }
 
 .hero-content {
