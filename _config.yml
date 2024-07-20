@@ -65,9 +65,10 @@ exclude:
 
 # Include for processing
 include:
-  - _pages
+  - assets/md/
   - about.md
   - projects.md
+  - contact.md
 
 # Defaults
 defaults:
