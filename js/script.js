@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return '';
             }
 
-            return marked(text);
+            return marked.parse(text);
         } catch (error) {
             console.error('Error fetching the file:', error);
             content.innerHTML = '<p>Error loading content.</p>';
