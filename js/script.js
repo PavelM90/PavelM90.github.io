@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const content = document.getElementById('content');
-    const baseUrl = 'https://PavelM90.github.io';  // Set your GitHub Pages base URL here
+    const baseUrl = window.location.origin;  // Dynamically set the base URL
 
     async function fetchMarkdown(file) {
         try {
