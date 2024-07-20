@@ -31,7 +31,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function loadContent() {
         let hash = window.location.hash || '#about';
-        let file = `${baseUrl}/assets/md/${hash.substring(1)}.md`;
+        let file;
+
+        if (hash === '#') {
+            // Set the file for the main page content
+            file = `${baseUrl}/assets/md/main.md`; // Create a main.md for your main page content
+        } else {
+            file = `${baseUrl}/assets/md/${hash.substring(1)}.md`;
+        }
 
         console.log('Loading content for:', hash);
         console.log('Fetching file:', file);
