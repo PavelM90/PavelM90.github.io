@@ -30,12 +30,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function loadContent() {
-        let hash = window.location.hash || '#about';
+        let hash = window.location.hash || '#';
         let file;
 
         if (hash === '#') {
-            // Set the file for the main page content
-            file = `${baseUrl}/assets/md/main.md`; // Create a main.md for your main page content
+            file = `${baseUrl}/assets/md/main.md`; // Path to your main.md file
         } else {
             file = `${baseUrl}/assets/md/${hash.substring(1)}.md`;
         }
