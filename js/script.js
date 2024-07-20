@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function fetchMarkdown(file) {
         try {
+            console.log(`Fetching file: ${file}`);
             const response = await fetch(file);
             if (!response.ok) {
                 content.innerHTML = '<p>Content not found.</p>';
@@ -10,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return '';
             }
             const text = await response.text();
+            console.log('File fetched successfully');
             return marked(text);
         } catch (error) {
             console.error('Error fetching the file:', error);
@@ -26,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Fetching file:', file);
 
         const markdown = await fetchMarkdown(file);
+        console.log('Markdown content:', markdown);
         content.innerHTML = markdown;
     }
 
