@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const content = document.getElementById('content');
-    const baseUrl = window.location.origin; // This should handle both GitHub Pages and custom domain
+    const baseUrl = window.location.origin;
 
     async function fetchMarkdown(file) {
         try {
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return '';
             }
 
-            return marked.parse(text);
+            return marked.parse(text); // Use marked.parse instead of marked(text)
         } catch (error) {
             console.error('Error fetching the file:', error);
             content.innerHTML = '<p>Error loading content.</p>';
