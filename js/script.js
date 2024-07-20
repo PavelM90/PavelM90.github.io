@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const content = document.getElementById('content');
-    const baseUrl = window.location.origin;
+    const baseUrl = window.location.origin; // This should handle both GitHub Pages and custom domain
 
     async function fetchMarkdown(file) {
         try {
