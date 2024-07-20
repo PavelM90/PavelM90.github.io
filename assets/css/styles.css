@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: url('../images/background.png') no-repeat center center fixed !important; /* Ensure the path is correct */
+    background: url('../images/background.png') no-repeat center center fixed; /* Ensure the path is correct */
     background-size: cover;
     position: relative;
 }
@@ -184,4 +184,3 @@ body.home .hero {
         display: block;
     }
 }
-
