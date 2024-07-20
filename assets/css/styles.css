@@ -38,7 +38,7 @@ ul {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #444;
-    height: 70px; /* Increased height */
+    height: 70px; /* Adjusted height */
 }
 
 .logo a {
@@ -100,10 +100,11 @@ ul {
 
 /* Main Content */
 main {
-    padding-top: 100px; /* Increased padding to add more space */
+    padding-top: 150px; /* Increased padding to add more space */
     margin: 0 auto;
     max-width: 1200px;
     padding: 20px;
+    text-align: center; /* Center-align the text */
 }
 
 /* Hero Section */
