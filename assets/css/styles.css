@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    position: relative;
 }
 
 a {
@@ -41,7 +42,7 @@ ul {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #444;
-    height: 70px; /* Height of the navbar */
+    height: 70px;
 }
 
 .logo a {
@@ -88,7 +89,7 @@ ul {
         background-color: #444;
         width: 100%;
         position: absolute;
-        top: 70px; /* Adjusted to match the height of your navbar */
+        top: 70px;
         left: 0;
     }
 
@@ -102,12 +103,13 @@ ul {
 }
 
 /* Main Content */
-body main#content {
-    padding-top: 150px !important; /* Ensure padding is applied */
+main#content {
+    padding-top: 150px;
     margin: 0 auto;
     max-width: 1200px;
     padding: 20px;
-    flex: 1; /* Ensure the main content takes available space */
+    flex: 1;
+    z-index: 1; /* Ensure main content is above the 3D background */
 }
 
 /* Footer Styles */
