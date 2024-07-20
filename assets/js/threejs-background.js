@@ -44,4 +44,20 @@ document.addEventListener('DOMContentLoaded', () => {
     renderer.domElement.style.top = '0';
     renderer.domElement.style.left = '0';
     renderer.domElement.style.zIndex = '-1';
+
+    // Function to toggle background visibility
+    function toggleBackgroundVisibility() {
+        const hash = window.location.hash || '#home';
+        if (hash === '#home') {
+            renderer.domElement.style.display = 'block';
+        } else {
+            renderer.domElement.style.display = 'none';
+        }
+    }
+
+    // Listen for hash change
+    window.addEventListener('hashchange', toggleBackgroundVisibility);
+
+    // Initial check
+    toggleBackgroundVisibility();
 });
