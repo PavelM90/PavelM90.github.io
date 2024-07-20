@@ -102,8 +102,8 @@ ul {
 }
 
 /* Main Content */
-main#content {
-    padding-top: 150px; /* Increased padding to add more space */
+body main#content {
+    padding-top: 150px !important; /* Ensure padding is applied */
     margin: 0 auto;
     max-width: 1200px;
     padding: 20px;
