@@ -14,13 +14,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const text = await response.text();
             console.log('File fetched successfully');
 
-            if (typeof marked !== 'function') {
+            if (typeof marked === 'undefined' || typeof marked.parse !== 'function') {
                 console.error('marked is not a function');
                 content.innerHTML = '<p>Error loading content.</p>';
                 return '';
             }
 
-            return marked.parse(text); // Use marked.parse instead of marked(text)
+            console.log('Parsing Markdown with marked');
+            return marked.parse(text);
         } catch (error) {
             console.error('Error fetching the file:', error);
             content.innerHTML = '<p>Error loading content.</p>';
@@ -40,11 +41,19 @@ document.addEventListener('DOMContentLoaded', () => {
         content.innerHTML = markdown;
     }
 
+    function ensureMarkedLoaded(callback) {
+        if (typeof marked === 'undefined' || typeof marked.parse !== 'function') {
+            setTimeout(() => ensureMarkedLoaded(callback), 100);
+        } else {
+            callback();
+        }
+    }
+
     window.addEventListener('hashchange', () => {
         console.log('Hash changed:', window.location.hash);
         loadContent();
     });
 
     // Load initial content
-    loadContent();
+    ensureMarkedLoaded(loadContent);
 });
