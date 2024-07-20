@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             console.log('Parsing Markdown with marked');
-            return marked.parse(text);
+            return marked.parse(text); // Use marked.parse instead of marked(text)
         } catch (error) {
             console.error('Error fetching the file:', error);
             content.innerHTML = '<p>Error loading content.</p>';
