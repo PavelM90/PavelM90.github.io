@@ -2,6 +2,6 @@
 
 I would love to hear from you! You can reach me at the following:
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn**: [your-linkedin-profile](https://linkedin.com/in/your-profile)
-- **GitHub**: [your-github-profile](https://github.com/your-profile)
+- **Email**: [your-email@example.com](mailto:mack7151@gmail.com)
+- **LinkedIn**: [your-linkedin-profile](https://www.linkedin.com/in/pavelmakarov90/)
+- **GitHub**: [your-github-profile](https://github.com/PavelM90)
