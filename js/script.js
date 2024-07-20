@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const content = document.getElementById('content');
-    const baseUrl = window.location.origin.includes('github.io') ? 'https://PavelM90.github.io' : window.location.origin;
+    const baseUrl = window.location.origin;
 
     async function fetchMarkdown(file) {
         try {
