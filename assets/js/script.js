@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let hash = window.location.hash || '#';
         let file;
 
-        if (hash === '#') {
+        if (hash === '#' || hash === '#home') {
             file = `${baseUrl}/assets/md/main.md`; // Path to your main.md file
         } else {
             file = `${baseUrl}/assets/md/${hash.substring(1)}.md`;
@@ -59,11 +59,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function toggleBackgroundVisibility(hash) {
-        const background = document.querySelector('canvas');
+        const body = document.body;
         if (hash === '#' || hash === '#home') {
-            background.style.display = 'block';
+            body.classList.add('home');
         } else {
-            background.style.display = 'none';
+            body.classList.remove('home');
         }
     }
 
@@ -75,4 +75,3 @@ document.addEventListener('DOMContentLoaded', () => {
     // Load initial content
     ensureMarkedLoaded(loadContent);
 });
-
