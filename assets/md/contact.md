@@ -1,7 +1,12 @@
-# Contact
+# Contact Me
 
-I would love to hear from you! You can reach me at the following:
+I would love to hear from you! You can reach me through the following channels:
 
-- **Email**: [your-email@example.com](mailto:mack7151@gmail.com)
-- **LinkedIn**: [your-linkedin-profile](https://www.linkedin.com/in/pavelmakarov90/)
-- **GitHub**: [your-github-profile](https://github.com/PavelM90)
+## Email
+- [mack7151@gmail.com](mailto:mack7151@gmail.com)
+
+## LinkedIn
+- [Pavel Makarov on LinkedIn](https://www.linkedin.com/in/pavelmakarov90/)
+
+## GitHub
+- [PavelM90 on GitHub](https://github.com/PavelM90)
