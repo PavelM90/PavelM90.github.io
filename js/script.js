@@ -30,8 +30,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function loadContent() {
-        let hash = window.location.hash || '#about';
-        let file = `${baseUrl}/assets/md/${hash.substring(1)}.md`;
+        let hash = window.location.hash || '#';
+        let file;
+
+        if (hash === '#') {
+            file = `${baseUrl}/assets/md/main.md`; // Path to your main.md file
+        } else {
+            file = `${baseUrl}/assets/md/${hash.substring(1)}.md`;
+        }
 
         console.log('Loading content for:', hash);
         console.log('Fetching file:', file);
