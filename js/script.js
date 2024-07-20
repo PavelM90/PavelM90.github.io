@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const content = document.getElementById('content');
+    const baseUrl = 'https://PavelM90.github.io';  // Set your GitHub Pages base URL here
 
     async function fetchMarkdown(file) {
         try {
@@ -12,6 +13,13 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const text = await response.text();
             console.log('File fetched successfully');
+
+            if (typeof marked !== 'function') {
+                console.error('marked is not a function');
+                content.innerHTML = '<p>Error loading content.</p>';
+                return '';
+            }
+
             return marked(text);
         } catch (error) {
             console.error('Error fetching the file:', error);
@@ -22,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function loadContent() {
         let hash = window.location.hash || '#about';
-        let file = `${window.location.origin}/assets/md/${hash.substring(1)}.md`;
+        let file = `${baseUrl}/assets/md/${hash.substring(1)}.md`;
 
         console.log('Loading content for:', hash);
         console.log('Fetching file:', file);
