@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function loadContent() {
         let hash = window.location.hash || '#about';
-        let file = `assets/md/${hash.substring(1)}.md`;
+        let file = `${window.location.origin}/assets/md/${hash.substring(1)}.md`;
 
         console.log('Loading content for:', hash);
         console.log('Fetching file:', file);
