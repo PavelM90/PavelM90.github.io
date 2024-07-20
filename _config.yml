@@ -1,20 +1,10 @@
-
-#logo: /assets/unnamed.jpeg
-#description: My story and my projects
-#show_download: true
-#theme: jekyll-theme-minimal
-
-
-
 # Site settings
 title: Pavel Makarov
 email: mack7151@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A short description of your site. This will be displayed in search engine results.
 baseurl: "" # the subpath of your site, e.g. /blog, or leave empty for the root
-url: "https://pavelmakarov.com" # the base hostname & protocol for your site
-github_username:  PavelM90
-profile_picture: "/assets/me.png"
+url: "https://PavelM90.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -23,12 +13,19 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# SEO settings
-seo:
-  name: "Pavel Makarov"
-  description: "Portfolio for Pavel Makarov"
-  url: "https://pavelmakarov.com"
-  
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+
+# Include for processing
+include:
+  - assets/md/
+  - about.md
+  - projects.md
 
 # Permalinks
 permalink: /:categories/:year/:month/:day/:title/
@@ -55,21 +52,6 @@ social:
   github: PavelM90
   linkedin: https://www.linkedin.com/in/pavelmakarov90/
 
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - node_modules
-  - vendor
-
-# Include for processing
-include:
-  - assets/md/
-  - about.md
-  - projects.md
-  - contact.md
-
 # Defaults
 defaults:
   - scope:
@@ -83,9 +65,8 @@ defaults:
 kramdown:
   input: GFM
   syntax_highlighter_opts:
-    block: {
+    block:
       line_numbers: true
-    }
 
 # Deployment settings
 repository: PavelM90.github.io
