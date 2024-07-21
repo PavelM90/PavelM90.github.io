@@ -25,7 +25,7 @@
 ### Data Scientist September 2023 – Present
 ##### ● Built predictive models using Random Forest machine learning algorithm to provide recommendations on product quality.
 ##### ● Developed RNA LC-MS data analysis software, enabling analysis of RNA modifications.
-##### ● Generated Excel based application for robots team, eliminating manual human labor by 70%.
+##### ● Generated Excel-based application for robots team, eliminating manual human labor by 70%.
 ##### ● Created databases for chemical analysis and experiment storage and tracking.
 ##### ● Generated dashboards and visualizations for RNA production processes.
 ##### ● Provided SME knowledge for tool development and investigational support including advanced data manipulation, visualization, modeling, and interpretation.
@@ -45,7 +45,7 @@
 ### Data Analyst
 ##### ● Directed the integration of data science principles in protein chemistry analysis, optimizing laboratory workflows and experiment design.
 ##### ● Applied data science techniques for protein analysis, including method development and validation, contributing to the advancement of molecular engineering projects.
-##### ● Utilized data modeling and simulation tools, such as Pymol, for predictive analysis and molecular modeling,
+##### ● Utilized data modeling and simulation tools, such as Pymol, for predictive analysis and molecular modeling. <br>
 
 
 
