@@ -65,8 +65,8 @@
 ##### Later, in 2020, I was on the front lines at Moderna, contributing to the fight against COVID-19. 
 ![Laboratory](/assets/images/lab.png)
 
-##### Several years ago, I became interested in Data Science and machine learning. For the past three years, I have been focusing on incorporating Data Science into analytical sciences, working on multiple projects to automate data processing. I recently graduated from Bellevue University with a Master’s in Data 
-##### Science. During my studies, I worked on several projects related to breast cancer classification and recognition. 
+##### Several years ago, I became interested in Data Science and machine learning. For the past three years, I have been focusing on incorporating Data Science into analytical sciences, working on multiple projects to automate data processing. I recently graduated from Bellevue University with a Master’s in Data Science. 
+##### During my studies, I worked on several projects related to breast cancer classification and recognition. 
 ##### I possess a solid understanding of machine learning algorithms, including linear and logistic regression, decision trees, and neural networks. Recently, I have become interested in working with visual data types. 
 ##### My strong communication and presentation skills, coupled with my enjoyment of teamwork, make me an effective collaborator. 
 
