@@ -1,6 +1,6 @@
 
 # About Me
-![My Picture](/assets/images/me.png)
+![My Picture](/assets/images/Me.png)
 ## Skills
 
 ### Data Science
