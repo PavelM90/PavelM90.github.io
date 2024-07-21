@@ -48,17 +48,17 @@
 
 ## Education
 
-### Bellevue University - Bellevue, NE
-#### Master of Data Science
+#### Bellevue University - Bellevue, NE
+Master of Data Science
 
-###  University of Massachusetts, Boston - Boston, MA
-#### Bachelor of Science in Biochemistry
+####  University of Massachusetts, Boston - Boston, MA
+Bachelor of Science in Biochemistry
 
-### Kazan National Research Technological University - Kazan, Russia
-#### Master of Science in Chemical Engineering
+#### Kazan National Research Technological University - Kazan, Russia
+Master of Science in Chemical Engineering
 
-### IBM Data Science Specialization – Coursera
-### Introduction to Deep Learning & Neural Networks with Keras - Coursera
+#### IBM Data Science Specialization – Coursera
+Introduction to Deep Learning & Neural Networks with Keras - Coursera
 
 
 ## Biography
