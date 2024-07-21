@@ -60,6 +60,8 @@ Master of Science in Chemical Engineering
 #### IBM Data Science Specialization – Coursera
 Introduction to Deep Learning & Neural Networks with Keras - Coursera
 
+## Publications
+[PubMed Publication](https://pubmed.ncbi.nlm.nih.gov/29947151/)
 
 ## Biography
 My name is Pavel, and I am a professional in Analytical Sciences with a robust background as a trained chemical engineer.
