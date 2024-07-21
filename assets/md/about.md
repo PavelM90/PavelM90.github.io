@@ -44,14 +44,22 @@
 - Led data-driven optimization initiatives to improve product yield and quality.
 - Collaborated cross-functionally to support various research and development projects.
 
+
+
 ## Education
-### Bellevue University – Bellevue, NE
-#### Master of Science in Data Science
-**September 2020 – May 2023**
-- Graduated with distinction.
-- Developed a breast cancer classification model using various machine learning algorithms.
-- Conducted extensive research on RNA sequence analysis and structural prediction using deep learning techniques.
-- Presented thesis on integrating data science methodologies into traditional biochemical analysis workflows.
+
+### Bellevue University - Bellevue, NE
+#### Master of Data Science
+
+###  University of Massachusetts, Boston - Boston, MA
+#### Bachelor of Science in Biochemistry
+
+### Kazan National Research Technological University - Kazan, Russia
+#### Master of Science in Chemical Engineering
+
+### IBM Data Science Specialization – Coursera
+### Introduction to Deep Learning & Neural Networks with Keras - Coursera
+
 
 ## Biography
 My name is Pavel, and I am a professional in Analytical Sciences with a robust background as a trained chemical engineer.
