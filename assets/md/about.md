@@ -2,14 +2,14 @@
 # About Me
 ![My Picture](/assets/images/Me.png)
 ## Skills
-##### Python (pandas, scikit learn, keras, pytocrh, biopython)
-##### R Programming Spark
-##### Exploratory Data Analysis
-##### AWS  
-##### Statistical Analysis
-##### SQL 
-##### Tableau 
-##### MS Office (Excel, Power Point, Word)
+##### -Python (pandas, scikit learn, keras, pytocrh, biopython)
+##### -R Programming Spark
+##### -Exploratory Data Analysis
+##### -AWS  
+##### -Statistical Analysis
+##### -SQL 
+##### -Tableau 
+##### -MS Office (Excel, Power Point, Word)
 
 ### Data Science
 #### - Expert in data analysis, machine learning, and statistical modeling.
@@ -21,7 +21,7 @@
 ##### - Extensive experience with proteins, DNA, RNA and LNPs.
 
 ## Experience
-### -Moderna – Norwood, MA
+### Moderna – Norwood, MA
 ### Data Scientist September 2023 – Present
 ##### ● Built predictive models using Random Forest machine learning algorithm to provide recommendations on product quality.
 ##### ● Developed RNA LC-MS data analysis software, enabling analysis of RNA modifications.
