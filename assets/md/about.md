@@ -9,10 +9,14 @@
 ##### -Statistical Analysis
 ##### -SQL 
 ##### -Tableau 
-##### -MS Office (Excel, Power Point, Word)
+##### -MS Office (Excel, PowerPoint, Word)
 
 ### Data Science
-#### - Expert in data analysis, machine learning, and statistical modeling.
+#### - Knowledge of Deep Learning Models 
+#### - Data wrangling and pre-processing 
+#### - Experience in various Machine Learning algorithms 
+#### - Models evaluation and fine-tuning
+
 
 ### Biochemistry
 ##### - Deep understanding of biochemistry.
@@ -28,7 +32,7 @@
 ##### ● Generated Excel-based application for robots team, eliminating manual human labor by 70%.
 ##### ● Created databases for chemical analysis and experiment storage and tracking.
 ##### ● Generated dashboards and visualizations for RNA production processes.
-##### ● Provided SME knowledge for tool development and investigational support including advanced data manipulation, visualization, modeling, and interpretation.
+##### ● Provided SME knowledge for tool development and investigational support, including advanced data manipulation, visualization, modeling, and interpretation.
 ##### ● Mentored junior staff in data analysis techniques and the use of analytical software.
 
 ### Associate Data Scientist II April 2022 – September 2023
