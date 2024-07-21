@@ -26,7 +26,8 @@
 
 ## Experience
 ### Moderna – Norwood, MA
-### Data Scientist September 2023 – Present
+### Scientist/Data Scientist 
+#### September 2023 – Present
 ##### ● Built predictive models using Random Forest machine learning algorithm to provide recommendations on product quality.
 ##### ● Developed RNA LC-MS data analysis software, enabling analysis of RNA modifications.
 ##### ● Generated Excel-based application for robots team, eliminating manual human labor by 70%.
@@ -35,18 +36,20 @@
 ##### ● Provided SME knowledge for tool development and investigational support, including advanced data manipulation, visualization, modeling, and interpretation.
 ##### ● Mentored junior staff in data analysis techniques and the use of analytical software.
 
-### Associate Data Scientist II April 2022 – September 2023
+### Researcher/Associate Data Scientist II 
+#### April 2022 – September 2023
 ##### ● Created experimental designs and implemented analytical studies for raw materials quality investigations.
 ##### ● Built and managed comprehensive databases for tracking and managing experimental data, enhancing data accessibility and integrity.
 ##### ● Developed operational and investigational models to support manufacturing and development activities including multivariate and machine learning techniques.
 
-### Associate Data Scientist I August 2020 – April 2022
+### Researcher/Associate Data Scientist I 
+#### August 2020 – April 2022
 ##### ● Conducted statistical analysis to assess the impact of vaccination on COVID-19-related mortality rates.
 ##### ● Implemented automation strategies for data processing, visualization, and reporting using Excel, significantly increasing efficiency and reducing manual errors.
 ##### ● Presented data-driven findings to leadership and stakeholders, enhancing decision-making processes with quantitative evidence.
 
 ### VIR Biotechnology – San Francisco, CA August 2018 – August 2020
-### Data Analyst
+### Principal Research Associate
 ##### ● Directed the integration of data science principles in protein chemistry analysis, optimizing laboratory workflows and experiment design.
 ##### ● Applied data science techniques for protein analysis, including method development and validation, contributing to the advancement of molecular engineering projects.
 ##### ● Utilized data modeling and simulation tools like Pymol for predictive analysis and molecular modeling. <be>
