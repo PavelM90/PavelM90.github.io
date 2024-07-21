@@ -19,6 +19,8 @@ My name is Pavel, and I am a professional in Analytical Sciences with a robust b
 Over the years, I have worked with various types of molecules, including proteins, RNA, DNA, and lipids.
 I have developed numerous methods for analyzing protein and RNA structures, authored standard operating procedures (SOPs), and trained personnel in these areas. My expertise lies in structural elucidation, where I have gained in-depth knowledge. 
 In 2018, I had the distinction of being the first person to develop a method and analyze the first clinical material at VIR Biotechnology. 
+
+
 ![First vial](/assets/images/with_vial.png)
 
 
