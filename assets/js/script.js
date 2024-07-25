@@ -1,6 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
     const content = document.getElementById('content');
     const baseUrl = window.location.origin;
+    const burger = document.querySelector('.burger');
+    const navLinks = document.querySelector('.nav-links');
+
+    burger.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+    });
 
     async function fetchMarkdown(file) {
         try {
@@ -21,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             console.log('Parsing Markdown with marked');
-            return marked.parse(text); // Use marked.parse instead of marked(text)
+            return marked.parse(text);
         } catch (error) {
             console.error('Error fetching the file:', error);
             content.innerHTML = '<p>Error loading content.</p>';
@@ -34,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let file;
 
         if (hash === '#' || hash === '#home') {
-            file = `${baseUrl}/assets/md/main.md`; // Path to your main.md file
+            file = `${baseUrl}/assets/md/main.md`;
         } else {
             file = `${baseUrl}/assets/md/${hash.substring(1)}.md`;
         }
@@ -46,7 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Markdown content:', markdown);
         content.innerHTML = markdown;
 
-        // Toggle background visibility based on hash
         toggleBackgroundVisibility(hash);
     }
 
@@ -72,6 +77,5 @@ document.addEventListener('DOMContentLoaded', () => {
         loadContent();
     });
 
-    // Load initial content
     ensureMarkedLoaded(loadContent);
 });
