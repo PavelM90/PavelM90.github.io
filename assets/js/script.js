@@ -3,9 +3,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const baseUrl = window.location.origin;
     const burger = document.querySelector('.burger');
     const navLinks = document.querySelector('.nav-links');
+    const navLinkItems = document.querySelectorAll('.nav-links li a'); // Select all nav links
 
+    // Toggle the burger menu
     burger.addEventListener('click', () => {
         navLinks.classList.toggle('show');
+    });
+
+    // Collapse the burger menu when a nav link is clicked
+    navLinkItems.forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('show');
+        });
     });
 
     async function fetchMarkdown(file) {
