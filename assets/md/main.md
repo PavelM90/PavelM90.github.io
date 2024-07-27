@@ -2,7 +2,7 @@
 
 This is the main page of my portfolio. Here you can find links to my projects, information about me, and ways to contact me.
 
-![Cover_Picture](/assets/images/cover_resized.png)
+![Cover_Picture](/assets/images/cover_resized_smaller.png)
 
 ## Introduction
 
