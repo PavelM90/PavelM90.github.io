@@ -3,7 +3,8 @@
 
 ## Skills
 - Python (pandas, scikit learn, keras, pytorch, biopython)
-- R Programming Spark
+- R Programming
+- Spark
 - Exploratory Data Analysis
 - AWS
 - Statistical Analysis
