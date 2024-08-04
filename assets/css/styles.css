@@ -12,9 +12,11 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background: url('../images/background.png') no-repeat center center fixed;
-    background-size: contain;
+    background-size: cover; /* This ensures the image covers the entire background */
     background-position: center;
     position: relative;
+    max-width: 1200px; /* Set a maximum width for the body */
+    margin: 0 auto; /* Center the body content */
 }
 
 /* Add a semi-transparent overlay */
