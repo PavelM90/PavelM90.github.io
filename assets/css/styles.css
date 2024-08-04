@@ -36,9 +36,13 @@ a {
 }
 
 ul {
-    list-style: none;
+    list-style: disc; /* Ensures bullets are shown */
     margin: 0;
-    padding: 0;
+    padding: 0 20px; /* Adds padding to the left for the bullet points */
+}
+
+ul li {
+    margin-bottom: 10px; /* Adds space between each bullet point */
 }
 
 /* Navbar Styles */
@@ -192,3 +196,4 @@ body.home .hero {
         padding: 8px 16px;
     }
 }
+
