@@ -32,22 +32,22 @@ body::before {
 
 a {
     text-decoration: none;
-    color: #1e90ff; /* Default link color */
+    color: #fff; /* Default link color */
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #ff4500; /* Hover color for links */
+    color: #1e90ff; /* Hover color for links */
 }
 
 /* Highlight specific links */
 a[href*="pubmed.ncbi.nlm.nih.gov"] {
-    color: #00ff00; /* Specific color for PubMed links */
+    color: #fff; /* Specific color for PubMed links */
     font-weight: bold; /* Bold font for emphasis */
 }
 
 a[href*="pubmed.ncbi.nlm.nih.gov"]:hover {
-    color: #ff69b4; /* Different hover color for PubMed links */
+    color: #1e90ff; /* Different hover color for PubMed links */
 }
 
 /* Other existing styles */
