@@ -18,6 +18,6 @@ You can find links to my projects, resume, and ways to contact me here.
 
 ## Navigation
 
-- [About Me](#about)
+- [About me](#about)
 - [Projects](#projects)
 - [Contact](#contact)
