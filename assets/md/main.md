@@ -1,6 +1,8 @@
 # Welcome to My Portfolio
 
-Hello everyone! My name is Pavel Makarov, and this is the main page of my portfolio. I am a Data Scientist/Analytical Scientist passionate about developing tools to solve complex problems.
+Hello everyone! 
+
+My name is Pavel Makarov, and this is the main page of my portfolio. I am a Data Scientist/Analytical Scientist passionate about developing tools to solve complex problems.
 
 My research interests span various topics, including biologics analysis (RNA, DNA, lipids), breast cancer research, sentiment analysis, NLP, neural networks, and sports analytics.
 
