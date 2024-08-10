@@ -1,7 +1,5 @@
 # My Portfolio
 
-Hello everyone! 
-
 I am a Data Scientist passionate about developing tools to solve complex problems.
 
 My research interests span various topics:
