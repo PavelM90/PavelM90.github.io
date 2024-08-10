@@ -1,6 +1,10 @@
 # About Me
 ![My Picture](/assets/images/Me.png)
 
+## Here is my work experience
+[Download My Resume](assets/Pavel_Makarov_Resume.pdf)
+
+
 ## Skills
 - Python (pandas, scikit learn, keras, pytorch, biopython)
 - R Programming
