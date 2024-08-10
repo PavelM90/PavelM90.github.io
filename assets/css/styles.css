@@ -90,6 +90,9 @@ ul li {
 .nav-links {
     display: flex;
     gap: 20px;
+    list-style: none; /* Add this line to remove the dots */
+    padding: 0; /* Optional: remove any default padding */
+    margin: 0; /* Optional: remove any default margin */
 }
 
 .nav-links li a {
@@ -140,7 +143,7 @@ ul li {
 
 /* Main Content */
 body main#content {
-    padding-top: 150px !important;
+    padding-top: 120px !important;
     margin: 0 auto;
     max-width: 1200px;
     padding: 20px;
