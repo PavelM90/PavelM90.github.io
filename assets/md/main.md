@@ -9,7 +9,7 @@ My research interests span various topics:
 - Neural network training
 - Biologics analysis
 
-Here, you can find links to my projects, information about me, my resume, and ways to contact me.
+You can find links to my projects, resume, and ways to contact me here.
 
 
 ![Cover_Picture](/assets/images/resized_cover.png)
