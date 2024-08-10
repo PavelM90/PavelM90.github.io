@@ -13,11 +13,11 @@ download>Download My Resume </a>
 - ### Experienced Data Scientist: 
 I’ve worked at cutting-edge biotech companies like Moderna and VIR Biotechnology, where I’ve applied my scientific background to solve real-world problems.
 - ### Passionate About Data:
-I’m deeply interested in statistics and machine learning, with a solid understanding of algorithms like linear and logistic regression, decision trees, and neural networks. Recently, I’ve become intrigued by visual data types, adding a new dimension to my expertise.
+I’m deeply interested in statistics and machine learning, with a solid understanding of algorithms like linear and logistic regression, decision trees, and neural networks. 
 - ### Boston Resident: 
 I live in Boston, a city I love for its mix of history and modern tech.
 - ### Life Outside of Work:
-I enjoy playing soccer, producing electronic music, DJing, building computers, and playing video games when I'm not working. I also love traveling, exploring new places, spending time with my wife our chihuahua, and walking with our dog.
+I enjoy playing soccer, producing electronic music, DJing, building computers, and playing video games when I'm not working. I also love traveling, exploring new places, and spending time with my wife and our chihuahua.
 - ### Effective Collaborator: 
 My strong communication and presentation skills and my love for teamwork make me an effective and collaborative teammate.
 
