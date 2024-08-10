@@ -1,7 +1,6 @@
 # About Me
-![My Picture](/assets/images/Me.png)
 
-## Here is my work experience
+## Work experience
 
 <a href="assets/md/assets/Pavel_Makarov_Resume.pdf"
 download>Download My Resume </a>
@@ -11,34 +10,15 @@ download>Download My Resume </a>
 [Link to PubMed Publication](https://pubmed.ncbi.nlm.nih.gov/29947151/)
 
 ## Biography
-My name is Pavel, and I am a professional in Analytical Sciences with a robust background as a trained chemical engineer.
+ - ### Experienced Data Scientist: 
+I’ve had the privilege of working at cutting-edge biotech companies like Moderna and Vir, where I’ve applied my scientific background to solve real-world problems.
+ - ### Passionate About Data:
+I’m deeply interested in statistics and machine learning, with a solid understanding of algorithms like linear and logistic regression, decision trees, and neural networks. Recently, I’ve become intrigued by visual data types, adding a new dimension to my expertise.
+ - ### Boston Resident: 
+I live in Boston, a city I love for its mix of history and modern tech.
+ - ### Life Outside of Work:
+When I’m not working, I enjoy playing soccer, producing electronic music, DJing, building computers, and playing video games. I also love traveling, exploring new places, and spending time with my wife, our chihuahua, and walking with our dog.
+ - ### Effective Collaborator: 
+My strong communication and presentation skills, combined with my love for teamwork, make me an effective and collaborative teammate.
 
-Over the years, I have worked with various types of molecules, including proteins, RNA, DNA, and lipids.
-
-I have developed numerous methods for analyzing protein and RNA structures, authored standard operating procedures (SOPs), 
-and trained personnel in these areas. My expertise lies in structural elucidation, where I have gained in-depth knowledge. 
-
-In 2018, I had the distinction of being the first person to develop a method and analyze the first clinical material at VIR Biotechnology. 
-
-![First vial](/assets/images/with_vial.png)
-
-Later, in 2020, I was on the front lines at Moderna, contributing to the fight against COVID-19. 
-
-![Laboratory](/assets/images/lab.png)
-
-Several years ago, I became interested in Data Science and machine learning. For the past three years, 
-
-I have been focusing on incorporating Data Science into analytical sciences, working on multiple projects to automate data processing. 
-
-I recently graduated from Bellevue University with a Master’s in Data Science. 
-
-During my studies, I worked on several projects related to breast cancer classification and recognition. 
-
-
-I possess a solid understanding of machine learning algorithms, including linear and logistic regression, decision trees, and neural networks.
-Recently, I have become interested in working with visual data types. 
-My strong communication and presentation skills, coupled with my enjoyment of teamwork, make me an effective collaborator. 
-
-I enjoy playing soccer, playing video games, producing electronic music and DJing, building computers, and walking with my dog in my spare time.
-
-![Me and my dog](/assets/images/with_chester.png)
+![Me and my dog](/assets/images/with_chester.png) ![Laboratory](/assets/images/lab.png)
