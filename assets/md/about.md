@@ -21,4 +21,4 @@ I enjoy playing soccer, producing electronic music, DJing, building computers, a
 - ### Effective Collaborator: 
 My strong communication and presentation skills and my love for teamwork make me an effective and collaborative teammate.
 
-![Me and my dog](/assets/images/with_chester.png) ![Laboratory](/assets/images/lab.png)
+![Laboratory](/assets/images/lab.png)           ![Me and my dog](/assets/images/with_chester.png) 
