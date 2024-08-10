@@ -1,10 +1,10 @@
 # Projects
 
+---
+
 > ## Breast cancer detection using XGBoost Classification algorithm
 > - **Description**: This project was focused on developing a classification model based on the cellular nuclei analysis results to detect breast cancer.
-  
 > - **Technologies and libraries**: Jupyter Notebook, Python, Pandas, Matplotlib, Seaborn, Scikit-Learn, XGBoost
-  
 > - **Link**: [GitHub Repository](https://github.com/PavelM90/-Projects/tree/main/Wisconsin%20Breast%20Cancer%20Classification%20Model)
 
 ---
