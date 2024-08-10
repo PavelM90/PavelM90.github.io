@@ -2,7 +2,7 @@
 ![My Picture](/assets/images/Me.png)
 
 ## Here is my work experience
-[Download My Resume](assets/Pavel_Makarov_Resume.pdf)
+
 <a href="assets/Pavel_Makarov_Resume.pdf"
   download>Download My Resume </a>
 
