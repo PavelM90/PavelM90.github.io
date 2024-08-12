@@ -4,7 +4,7 @@
 
 > ## Work Experience
 >
-> <a href="assets/md/assets/Pavel_Makarov_Resume.pdf"
+> <a href="assets/md/assets/Pavel_Makarov_Resume_New.pdf"
 download>Download My Resume </a>
 
 ---
